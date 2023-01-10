@@ -1,0 +1,53 @@
+.container .header{
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo img{
+    width: 19rem;
+}
+
+.header .form__headTitle{
+    background-color: #fff;
+    width: 25rem;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-radius: 10px;
+}
+
+.form__headTitle h1 {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: rgb(74, 73, 73);
+}
+
+.container .information p{
+    font-size: 0.9rem;
+}
+
+.container .information .first__info{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.information p .tick{
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: #fff;
+}
+
+.information .tick__info{
+    display: flex;
+    align-items: center;
+}
+
+.information .second__info{
+    padding-top: 0.5rem;
+}
