@@ -1,5 +1,5 @@
 import React from "react";
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 import {
   CompleteApp,
   GoodsDisc,
@@ -17,7 +17,7 @@ import {
 } from "../FormInputs/FormInputs";
 
 const FormBody = () => {
-  const { register, handleSubmit } = useForm();
+  // const { register, handleSubmit } = useForm();
   return (
     <div>
       {data.map((item, i) => (

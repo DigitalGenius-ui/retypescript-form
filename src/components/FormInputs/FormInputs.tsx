@@ -230,3 +230,24 @@ export const Tariff = () => {
     </div>
   );
 };
+
+export const ImportGoods = () => {
+  return (
+    <div className="container">
+      <div className="input__content">
+        <span className="title">
+          provide full description of the goods to which the application relates
+        </span>
+        <div className="inputs">
+          <TextField
+            name="goodDetails"
+            size="small"
+            fullWidth
+            multiline
+            rows={4}
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
