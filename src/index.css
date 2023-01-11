@@ -15,3 +15,13 @@ body {
   width: 80%;
   margin: 2rem auto;
 }
+
+p{
+  font-size: 0.8rem;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}

@@ -27,6 +27,10 @@
     top: -2.4rem;
 }
 
+.info__text .title.paddings{
+    top: -2.5rem;
+}
+
 .title span{
     font-size: 0.7rem;
 }
@@ -41,4 +45,44 @@
     color: #000;
     text-decoration: none;
     font-weight: 600;
+}
+
+/* form complete  */
+
+.lists{
+    padding: 1rem;
+}
+
+.lists li{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+/* final information  */
+
+.info{
+    margin-top: 1.5rem;
+    background-color: #000;
+    color: #fff;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.goodsText {
+    padding: 0.3rem 0;
+    display: flex;
+    gap: 0.3rem;
+}
+
+.goodsText span{
+    font-size: 0.8rem;
+}
+
+.subTexts {
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
 }
